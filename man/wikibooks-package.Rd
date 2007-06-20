@@ -11,8 +11,8 @@
 \tabular{ll}{
 Package: \tab wikibooks\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2007-06-04\cr
+Version: \tab 0.2\cr
+Date: \tab 2007-06-20\cr
 License: \tab GPL version 2 or newer \cr
 }
 

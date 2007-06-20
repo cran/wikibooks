@@ -7,7 +7,7 @@
 }
 \usage{data(Bundesliga)}
 \format{
-  A data frame with 13484 observations on the following 10 variables.
+  A data frame with 13406 observations on the following 10 variables.
   \describe{
     \item{\code{Saison}}{the season}
     \item{\code{Spieltag}}{the matchday}
