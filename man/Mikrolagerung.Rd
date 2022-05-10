@@ -13,7 +13,7 @@
     \item{\code{PROBAND}}{ID}
     \item{\code{ALTER}}{age}
     \item{\code{GROESSE}}{height}
-    \item{\code{GEWICHT}}{weigght}
+    \item{\code{GEWICHT}}{weight}
     \item{\code{BMI}}{Body-Mass-Index}
     \item{\code{HUEFTE}}{Hip circumference}
     \item{\code{SEX}}{proband's sex}
@@ -34,9 +34,9 @@
   }
 }
 \details{
-While lying in bed, pressure is the main reason why patients get a pressure-ulcer. 
+While lying in bed, pressure is the main reason why patients get a pressure-ulcer.
 The aim of this EBNP was to get knowledge about how pressure differs during various positionings.
-The probands where positioned to the left and to the right side by 30 degrees while lying in a bed. Each time, the pressure at the 
+The probands where positioned to the left and to the right side by 30 degrees while lying in a bed. Each time, the pressure at the
 sacral-bone-area was measured, as at this area a pressure-ulcer arises very often.
 After that, pressure was assessed while probands where positioned by micro-positioning at left and right shoulder and pelvis.
 }

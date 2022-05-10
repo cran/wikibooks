@@ -3,7 +3,7 @@
 \docType{data}
 \title{ Results and fixtures of the german football-league "Bundesliga"}
 \description{
-  This data-set contains the fixtures and results of the german football-league "Bundesliga" from 1963 - 2007
+  This data-set contains the fixtures and results of the german football-league "Bundesliga" from 1963 - 2007.
 }
 \usage{data(Bundesliga)}
 \format{
@@ -22,7 +22,7 @@
   }
 }
 \source{
-  fTip-Database
-  \url{http://sourceforge.net/projects/ftip}
+  fTip Database
+  \url{https://github.com/ftip }
 }
 \keyword{datasets}

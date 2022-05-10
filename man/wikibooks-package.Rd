@@ -5,14 +5,14 @@
 \title{Functions and datasets of the german WikiBook "GNU R"}
 \description{
 	The german Wikibook "GNU R" introduces R to new users.
-	This package is a collection of functions and datas used in the german WikiBook "GNU R"
+	This package is a collection of functions and datas used in the german WikiBook "GNU R".
 }
 \details{
 \tabular{ll}{
 Package: \tab wikibooks\cr
 Type: \tab Package\cr
-Version: \tab 0.2\cr
-Date: \tab 2007-06-20\cr
+Version: \tab 0.2.1\cr
+Date: \tab 2007-05-10\cr
 License: \tab GPL version 2 or newer \cr
 }
 
@@ -23,7 +23,7 @@ Joerg Schlarmann (aka Produnis)
 Maintainer: Joerg Schlarmann (aka Produnis) <schlarmann@produnis.de>
 }
 \references{
-\url{http://de.wikibooks.org/wiki/GNU_R}
+\url{https://de.wikibooks.org/wiki/GNU_R}
 }
 \keyword{ package }
 

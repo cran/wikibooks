@@ -13,15 +13,16 @@ Bundesliga.XML(Datei = "Bundesliga.xml", Saison = "all")
   \item{Saison}{ season to be included, by default "all" for all seasons }
 }
 \author{ Joerg Schlarmann }
-\seealso{ 
+\seealso{
 	\code{\link{sink}}}
 \examples{
+\dontrun{
 # this saves all season to file "Bundesliga.xml"
-Bundesliga.XML()  
+Bundesliga.XML()
 
 #this writes only season 2001/2002 to "myfile.xml"
 Bundesliga.XML("myfile.xml", "2001/2002")
-
+}
 }
 \keyword{ datagen }
 

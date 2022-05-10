@@ -15,6 +15,6 @@
 }
 
 \source{
-  \url{http://de.wikibooks.org/wiki/GNU_R:_Anwendungsbeispiele#Beispiel_2}
+  \url{https://de.wikibooks.org/wiki/GNU_R:_Anwendungsbeispiele#Beispiel_2}
 }
 \keyword{datasets}

@@ -12,11 +12,11 @@ sens.spec(x, y, risk = 1, dir = "LESS", plot = F)
   \item{x}{ score of an assessment-instrument (numeric) }
   \item{y}{ a factor which classify x to positive or negative group  }
   \item{risk}{ y-value for the positive group (e.g. 1 or "y")) }
-  \item{dir}{ "LESS" if a low (x) leads to positive group; "GREATER" wether a high (x) leads to positive group }
-  \item{plot}{ logical wether a plot should be generated }
+  \item{dir}{ "LESS" if a low (x) leads to positive group; "GREATER" whether a high (x) leads to positive group }
+  \item{plot}{ logical whether a plot should be generated }
 }
 
-\references{ \url{http://de.wikibooks.org/wiki/GNU_R:_Programmierbeispiele#Beispiel_2} }
+\references{ \url{https://de.wikibooks.org/wiki/GNU_R:_Programmierbeispiele#Beispiel_2} }
 \author{ Produnis }
 \examples{
 # Using the cms-Dataset

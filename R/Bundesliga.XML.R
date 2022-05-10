@@ -1,6 +1,6 @@
 `Bundesliga.XML` <-
 function(Datei="Bundesliga.xml", Saison="all"){
-	data(Bundesliga)
+  Bundesliga <- wikibooks::Bundesliga
 	cat("Daten werden geschrieben...\r")
 	sink(Datei)
 	if(Saison=="all"){
@@ -14,7 +14,7 @@ function(Datei="Bundesliga.xml", Saison="all"){
 	ende.saison <- saison.l +1
 	cat("<?xml version='1.0' encoding='utf-8'?> \r")
 	cat("<Bundesliga>\r")
-	
+
 	while(start.saison<ende.saison){   # gehe f<c3><bc>r jede Saison durch
 		sjahr <- saison[start.saison]
 		cat(sep = "","\t<saison jahr=\"",sjahr , "\">\r")
@@ -37,7 +37,7 @@ function(Datei="Bundesliga.xml", Saison="all"){
 				Heimtore		<- spieltag.liga$Tore.Heim[start.spiele]
 				Gasttore		<- spieltag.liga$Tore.Gast[start.spiele]
 				Heimhalbzeit	<- spieltag.liga$Tore.Heim.Halbzeit[start.spiele]
-				Gasthalbzeit 	<- spieltag.liga$Tore.Gast.Halbzeit[start.spiele] 
+				Gasthalbzeit 	<- spieltag.liga$Tore.Gast.Halbzeit[start.spiele]
 				cat(sep = "","\t\t\t\t<datum>",Datum,"</datum>\r")
 				cat(sep = "","\t\t\t\t<anpfiff>",Anpfiff,"</anpfiff>\r")
 				cat(sep = "","\t\t\t\t<heim>",Heim,"</heim>\r")
@@ -50,16 +50,16 @@ function(Datei="Bundesliga.xml", Saison="all"){
 				start.spiele<- start.spiele+1
 				spielnummer<-spielnummer+1
 				}
-			
+
 			cat("\t\t</spieltag>\r")
 			start.spieltag <- start.spieltag+1
 			}
 		cat("\t</saison>\r")
-		start.saison <- start.saison+1	
+		start.saison <- start.saison+1
 		}
-	
+
 	cat("</Bundesliga>\r")
-	
+
 	sink()
 	}
 

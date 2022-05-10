@@ -2,7 +2,7 @@
 \alias{Abschlussnote}
 \title{ Calculation of a fictive graduation mark }
 \description{
-  This function calculates a fictive graduation mark, wich is set together by three grades. 
+  This function calculates a fictive graduation mark, which is set together by three grades.
   This is used in the Wikibook-Section "Programmierbeispiele"
 }
 \usage{
@@ -14,8 +14,8 @@ Abschlussnote(x, y, z)
   \item{z}{ The third grade }
 }
 
-\references{ 
-	\url{http://de.wikibooks.org/wiki/GNU_R:_Programmierbeispiele }
+\references{
+	\url{https://de.wikibooks.org/wiki/GNU_R:_Programmierbeispiele }
 }
 \author{ Joerg Schlarmann }
 \examples{
